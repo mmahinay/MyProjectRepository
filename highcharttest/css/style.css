@@ -1,0 +1,93 @@
+@import "reset.css";
+
+body{
+   height: 100%;
+   width: 100%; /* needed for Firefox */
+   color: #000000;
+   font-family: Arial;
+   font-size: 0.6875em;
+}
+body > .global-wrapper{
+	  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	   display: -moz-box;      /* OLD: Firefox (buggy) */
+	   display: -ms-flexbox;   /* MID: IE 10 */
+	   display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+	   display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+	   height: 100%;
+	   width: 100%;	
+	   align-items: center;  
+}
+.wrapper{
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;      /* OLD: Firefox (buggy) */
+	display: -ms-flexbox;   /* MID: IE 10 */
+    display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex;
+	height: auto;
+	width: 98%; /* needed for Firefox */
+	border-radius: 10px;
+	border: 3px solid #666;
+	flex-flow: column nowrap;
+	align-items: stretch;
+	margin: auto;
+}
+.content-top{
+	order: 1;
+	flex: 1 25%;
+}
+.content-main{
+	order: 2;
+	flex: 1 50%;
+}
+.content-bottom{
+	order: 3;
+	flex-grow:1;
+	flex: 1 25%;
+}
+/*--- content-top -------*/
+.content-top-flex{
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;      /* OLD: Firefox (buggy) */
+	display: -ms-flexbox;   /* MID: IE 10 */
+	display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex;
+	height: 100%;
+	width: 100%; /* needed for Firefox */
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.content-top-title{
+	flex: 1 20%;
+	order: 1;
+	padding: 5px;
+}
+.content-top-widgets{
+	flex: 1 80%;
+	order: 2;
+}
+.content-top-widgets-flex{
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;      /* OLD: Firefox (buggy) */
+	display: -ms-flexbox;   /* MID: IE 10 */
+	display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex;
+	height: 100%;
+	width: 100%; /* needed for Firefox */
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.widget{
+	flex: 1;
+	position: relative;
+	background: cyan;
+	padding: 5px;
+	align-self: auto;
+	min-height: 40px;
+	min-width: 140px;
+}
+
+
+
+/*--- content-bottom -------*/

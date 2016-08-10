@@ -1,0 +1,8 @@
+[
+        {"title" : "TitleNoA", "prev_value" : "100", "prev_date" : "Aug. 18, 2016","current_value" : "1000"},
+		{"title" : "TitleNoB", "prev_value" : "200", "prev_date" : "Aug. 18, 2016","current_value" : "2000"},
+		{"title" : "TitleNoC", "prev_value" : "300", "prev_date" : "Aug. 18, 2016","current_value" : "3000"},
+		{"title" : "TitleNoD", "prev_value" : "400", "prev_date" : "Aug. 18, 2016","current_value" : "4000"},
+		{"title" : "TitleNoE", "prev_value" : "500", "prev_date" : "Aug. 18, 2016","current_value" : "5000"},
+		{"title" : "TitleNoF", "prev_value" : "600", "prev_date" : "Aug. 18, 2016","current_value" : "6000"}
+]
